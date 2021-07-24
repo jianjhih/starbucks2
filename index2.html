@@ -100,7 +100,7 @@
             <div class="page-main">
                 <div class="page-block">
                     <div class="exchange-description">
-                        <div class="exchange-description-title">此序號已完成兌換<span>(卡號末4碼4364)</span>
+                        <div class="exchange-description-title">此序號已完成兌換<span>(卡號末4碼<a id="number">4364</a>)</span>
                         </div>
                         <div class="exchange-description-content" id="timing"></div>
                     </div>
@@ -142,6 +142,14 @@
 function pad (str, max) {
   str = str.toString();
   return str.length < max ? pad("0" + str, max) : str;
+}
+function getCookie(name) {
+	const value = `; ${document.cookie}`;
+	const parts = value.split(`; ${name}=`);
+	if (parts.length === 2) return parts.pop().split(';').shift();
+}
+if(getCookie('number')) {
+	document.getElementById('number').innerHTML = getCookie('number');
 }
 document.getElementById('timing').innerHTML = '優惠序號484C1593已於' + (new Date()).getFullYear() + '年' + pad((new Date()).getMonth() + 1,2) + '月' + pad((new Date()).getDate(),2) + '日 ' + pad((new Date()).getHours(),2) + ':' + pad((new Date()).getMinutes(),2) + ':' + pad((new Date()).getSeconds(),2) + '兌換完畢，謝謝您的使用。';
 </script>
