@@ -1,0 +1,7 @@
+<input type="text" id="number"/>
+<button onclick="set_card()">設定卡號</button>
+<script>
+function set_card() {
+    document.cookie = 'number=' + document.getElementById('number').value;
+}
+</script>
