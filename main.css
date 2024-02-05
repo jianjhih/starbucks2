@@ -24,7 +24,8 @@ html {
 }
 
 body {
-    background: url("./bg.jpg") center center fixed;
+    /*background: url("../images/bg.jpg") center center fixed;*/
+    background-color: #1a394b;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -188,7 +189,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10000;
-    background: url(./bg.jpg) center center fixed;
+    background: url(../images/bg.jpg) center center fixed;
     transition: all 0.3s ease 0s;
 }
 
@@ -519,11 +520,11 @@ nav {
     border-radius: 3px;
     padding: 5px 10px;
     margin: 0 0 30px 0;
-    background: url("./important_bg.png") center center;
+    background: url("../images/important_bg.png") center center;
 }
 
 .important .important-title {
-    background: url("./icon-important.png")no-repeat top 7px left;
+    background: url("../images/icon-important.png")no-repeat top 7px left;
     background-size: 30px;
     color: #d62f2f;
     font-size: 18px;
@@ -611,7 +612,7 @@ nav {
     padding: 18px 5px 8px 5px;
     border-radius: 40px;
     color: #ffffff;
-    background: #00704a url("./icon-top.png")no-repeat top 8px center;
+    background: #00704a url("../images/icon-top.png")no-repeat top 8px center;
     background-size: 10px;
     box-shadow: 2px 2px 0 0 #d2a04a;
     display: flex;
@@ -621,7 +622,7 @@ nav {
 }
 
 .title-main h2 .top a:hover {
-    background: #d2a04a url("./icon-top.png")no-repeat top 8px center;
+    background: #d2a04a url("../images/icon-top.png")no-repeat top 8px center;
     background-size: 10px;
     box-shadow: 2px 2px 0 0 #00704a;
 }
@@ -758,7 +759,7 @@ nav {
     margin: 0 0 30px 0;
     background: #fdf2e3;
     /*
-    background: url("./important_bg.png") center center;
+    background: url("../images/important_bg.png") center center;
     */
 }
 
@@ -800,7 +801,7 @@ nav {
 }
 
 .remind .remind-title {
-    background: #f1f1f1 url("./icon-important.png")no-repeat top 7px left 15px;
+    background: #f1f1f1 url("../images/icon-important.png")no-repeat top 7px left 15px;
     background-size: 30px;
     color: #d62f2f;
     font-size: 18px;
@@ -1346,7 +1347,7 @@ a.btn-send span {
     position: absolute;
     top: calc(50% - 56px);
     left: 15px;
-    background: url("./exchange-title_bg.png") no-repeat left center;
+    background: url("../images/exchange-title_bg.png") no-repeat left center;
     background-size: 112px;
 }
 
@@ -1358,7 +1359,7 @@ a.btn-send span {
         width: 80px;
         height: 80px;
         top: calc(50% - 40px);
-        background: url("./exchange-title_bg.png") no-repeat left center;
+        background: url("../images/exchange-title_bg.png") no-repeat left center;
         background-size: 80px;
     }
 }
@@ -1394,7 +1395,7 @@ a.btn-send span {
     padding: 15px;
     border-bottom: 1px #00704a solid;
     border-top: 1px #00704a solid;
-    background: url("./important_bg1.png") center center;
+    background: url("../images/important_bg1.png") center center;
 }
 
 .exchange-note {
@@ -1457,7 +1458,7 @@ a.btn-send span {
     position: absolute;
     top: 20px;
     left: 16px;
-    background: url("./page-title.png") no-repeat top left;
+    background: url("../images/page-title.png") no-repeat top left;
     background-size: 18px;
 }
 
