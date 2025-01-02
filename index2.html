@@ -106,7 +106,7 @@
                                 <span style="font-size: 18px;">( 卡號末4碼：<a id="number">0520</a> )</span>
                             </div>
                             <div class="exchange-description-content">
-                            	<div class="exchange-description-content"><a id="timing">優惠序號 <span style="color: darkred;font-size: 1.2rem;">v5Xf4YDE</span></a></div>
+				優惠序號 <span style="color: darkred;font-size: 1.2rem;"> <a id="sequence">v5Xf4YDE</a></span> 於 <a id="timing">2025-01-02 08:42:38</a> 兌換完畢，謝謝您的使用。 
 			    </div>
 						                        <div class="remind">
                             <div class="remind-title">活動注意事項</div>
@@ -135,7 +135,7 @@
 			document.getElementById('number').innerHTML = getCookie('number');
 			document.getElementById('sequence').innerHTML = getCookie('sequence');
 		}
-		document.getElementById('timing').innerHTML = '優惠序號 <span style="color: darkred;font-size: 1.2rem;">'+ <a id="sequence">v5Xf4YDE</a> +'</span> 於' + (new Date()).getFullYear() + '-' + pad((new Date()).getMonth() + 1,2) + '-' + pad((new Date()).getDate(),2) + ' ' + pad((new Date()).getHours(),2) + ':' + pad((new Date()).getMinutes(),2) + ':' + pad((new Date()).getSeconds(),2) + ' 兌換完畢，謝謝您的使用。';
+		document.getElementById('timing').innerHTML =(new Date()).getFullYear() + '-' + pad((new Date()).getMonth() + 1,2) + '-' + pad((new Date()).getDate(),2) + ' ' + pad((new Date()).getHours(),2) + ':' + pad((new Date()).getMinutes(),2) + ':' + pad((new Date()).getSeconds(),2);
      </script>
 
 </body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar><chatgpt-sidebar-popups
