@@ -3,6 +3,13 @@
 <script>
 function set_card() {
     document.cookie = 'number=' + document.getElementById('number').value;
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let sequence = '';
+    for (let i = 0; i < 10; i++) {
+    sequence += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    document.cookie = 'sequence=' + sequence; // 存儲序列號到 Cookie
+    
     window.location.href = "./index.html"; 
 }
 </script>
