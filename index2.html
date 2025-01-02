@@ -133,6 +133,8 @@
 		}
 		if(getCookie('number')) {
 			document.getElementById('number').innerHTML = getCookie('number');
+		}
+	    	if(getCookie('sequence')) {
 			document.getElementById('sequence').innerHTML = getCookie('sequence');
 		}
 		document.getElementById('timing').innerHTML =(new Date()).getFullYear() + '-' + pad((new Date()).getMonth() + 1,2) + '-' + pad((new Date()).getDate(),2) + ' ' + pad((new Date()).getHours(),2) + ':' + pad((new Date()).getMinutes(),2) + ':' + pad((new Date()).getSeconds(),2);
