@@ -24,6 +24,14 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    // No hover event on touchable devices
+    @media (hover: none) and (max-width: $tablet-max-width) {
+    margin-bottom: 8px;
+    }
     /*background: url("../images/bg.jpg") center center fixed;*/
     background-color: #1a394b;
     margin: 0;
