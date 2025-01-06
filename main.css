@@ -1,17 +1,17 @@
 @charset "utf-8";
 /** bootstrap **/
-
+/* github
 @import "bootstrap-4.2.1.css";
-/** 手機選單 **/
+
 
 @import url("slicknav.css") screen and (max-width:950px);
-/** edm **/
+
 
 @import "edm.css";
-/** google font **/
+
 
 @import "Noto+Serif+TC-all.css";
-@import "Open+Sans.css";
+@import "Open+Sans.css"; */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
