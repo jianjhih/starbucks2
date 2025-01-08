@@ -33,6 +33,16 @@
     <link href="./main.css" rel="stylesheet" type="text/css">
 
     <style type="text/css">
+	    body{
+ margin: 0;
+ padding: 0;
+ width: 100vw;
+ height: 100vh;
+ // No hover event on touchable devices
+ @media (hover: none) and (max-width: $tablet-max-width) {
+    margin-bottom: 8px;
+  }
+}
         a.btn-reset {
             padding: 27px 12px;
             width: calc(50% - 5px);
