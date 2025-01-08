@@ -27,7 +27,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100lvh;
     // No hover event on touchable devices
     @media (hover: none) and (max-width: $tablet-max-width) {
     margin-bottom: 8px;
