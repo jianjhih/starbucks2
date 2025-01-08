@@ -1,0 +1,14 @@
+{
+  "name": "JCB Starbucks",
+  "short_name": "JCBStar",
+  "description": "JCB Starbucks discount.",
+  "start_url": ".", //  設定首頁 URL
+  "display": "standalone", // 設定為獨立應用程序顯示模式
+  "icons": [
+    {
+      "src": "logo-taodining-2025.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
